@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StpJune</string>
+    <string name="hello_world">Welcome Students</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_new">NewActivity</string>
+    <string name="title_activity_radio">RadioActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_rating">RatingActivity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_auto_comp_main">AutoCompMainActivity</string>
+    <string name="title_activity_toggle">ToggleActivity</string>
+    <string name="title_activity_alert_db">AlertDbActivity</string>
+    <string name="title_activity_anon_btn">AnonBtnActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_seek">SeekActivity</string>
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="title_activity_database">DatabaseActivity</string>
+    <string name="title_activity_insert_record">InsertRecord</string>
+    <string name="title_activity_view_all_records">ViewAllRecords</string>
+    <string name="title_activity_update_record">UpdateRecord</string>
+    <string name="title_activity_record_data">RecordData</string>
+    <string name="title_activity_delete_record">DeleteRecord</string>
+
+</resources>

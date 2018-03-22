@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.stpjune"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/doggy"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".NewActivity"
+            android:label="@string/title_activity_new" >
+        </activity>
+        <activity
+            android:name=".RadioActivity"
+            android:label="@string/title_activity_radio" >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RatingActivity"
+            android:label="@string/title_activity_rating" >
+        </activity>
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="@string/title_activity_spinner" >
+        </activity>
+        <activity
+            android:name=".AutoCompMainActivity"
+            android:label="@string/title_activity_auto_comp_main" >
+        </activity>
+        <activity
+            android:name=".ToggleActivity"
+            android:label="@string/title_activity_toggle" >
+        </activity>
+        <activity
+            android:name=".AlertDbActivity"
+            android:label="@string/title_activity_alert_db" >
+        </activity>
+        <activity
+            android:name=".AnonBtnActivity"
+            android:label="@string/title_activity_anon_btn" >
+        </activity>
+        <activity
+            android:name=".ProgressActivity"
+            android:label="@string/title_activity_progress" >
+        </activity>
+        <activity
+            android:name=".SeekActivity"
+            android:label="@string/title_activity_seek" >
+        </activity>
+        <activity
+            android:name=".WebViewActivity"
+            android:label="@string/title_activity_web_view" >
+        </activity>
+        <activity
+            android:name=".DatabaseActivity"
+            android:label="@string/title_activity_database" >
+        </activity>
+        <activity
+            android:name=".InsertRecord"
+            android:label="@string/title_activity_insert_record" >
+        </activity>
+        <activity
+            android:name=".ViewAllRecords"
+            android:label="@string/title_activity_view_all_records" >
+        </activity>
+        <activity
+            android:name=".UpdateRecord"
+            android:label="@string/title_activity_update_record" >
+        </activity>
+        <activity
+            android:name=".RecordData"
+            android:label="@string/title_activity_record_data" >
+        </activity>
+        <activity
+            android:name=".DeleteRecord"
+            android:label="@string/title_activity_delete_record" >
+        </activity>
+    </application>
+
+</manifest>
